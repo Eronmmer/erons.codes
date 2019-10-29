@@ -11,7 +11,7 @@ tags:
   - "Web Development"
 description: "In this article, I briefly discuss the bind, call and apply methods in JavaScript.
 These methods are available to every function in JavaScript and are used to control what *this* in a function points to."
-# socialImage: "/media/42-line-bible.jpg"
+socialImage: "/media/42-line-bible.jpg"
 ---
 
 <!-- ![42-line-bible.jpg](/media/42-line-bible.jpg) -->
