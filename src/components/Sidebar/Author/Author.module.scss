@@ -6,14 +6,16 @@
     display: inline-block;
     margin-bottom: 0;
     border-radius: 50%;
-    background-clip: padding-box
+    background-clip: padding-box;
+    margin: 0 auto;
   }
 
   &__title {
-    font-size: $typographic-base-font-size * 1.125;
+    font-size: $typographic-base-font-size * 2;
     font-weight: 600;
     @include line-height(1.125);
     @include margin(.5, 0, .5, 0);
+    text-align: center;
 
     &-link {
       color: $color-base;
@@ -28,7 +30,7 @@
   }
 
   &__subtitle {
-    color: $color-gray;
+    color: $color-base;
     @include line-height(1);
     @include margin-bottom(1)
   }

@@ -10,6 +10,7 @@
   @include margin-bottom(2);
 
   &__bio {
+    text-align: center;
     &-twitter {
       display: block;
       text-decoration: underline;
