@@ -5,7 +5,7 @@ import styles from './Author.module.scss';
 
 type Props = {
   author: {
-    name: string,
+    name: 'string",
     bio: string,
     photo: string
   },

@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://erons.codes',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Erons',
+  subtitle: 'Hi, I'm Erons. I build stuff for the web and mobile. Here, I write articles on Frontend and Backend development.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,21 +25,21 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Erons',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Hi, I'm Erons. I build stuff for the web and mobile. Here, I write articles on Frontend and Backend development',
     contacts: {
-      email: '',
+      email: 'eronmmer@gmail.com',
       facebook: '#',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'https://twitter.com/erons_xo',
+      github: 'https://github.com/Eronmmer',
       rss: '',
       vkontakte: '',
       linkedin: '#',
-      instagram: '#',
+      instagram: 'https://instagram.com/erons_xo',
       line: '',
-      gitlab: '',
+      gitlab: 'https://gitlab.com/erons',
       weibo: ''
     }
   }
