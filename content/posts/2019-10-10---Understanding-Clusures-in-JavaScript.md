@@ -3,7 +3,7 @@ title: Understanding Closures in JavaScript
 date: "2019-10-10T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/understanding-closures-in-javascript/"
+slug: "/understanding-closures-in-javascript/"
 category: "JavaScript"
 tags:
   - "Functional Programming"

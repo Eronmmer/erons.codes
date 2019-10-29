@@ -16,13 +16,14 @@
       &-link {
         font-size: $typographic-base-font-size;
         color: $typographic-base-font-color;
-        font-weight: normal;
         border: 0;
+        text-transform: uppercase;
+        font-weight: 500;
 
         &:hover,
         &:focus {
-          color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+          color: $color-red;
+          border-bottom: 1px solid $color-red;
         }
 
         &--active {

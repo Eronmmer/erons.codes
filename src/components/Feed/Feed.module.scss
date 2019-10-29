@@ -32,6 +32,7 @@
       font-size: $typographic-base-font-size;
       @include line-height(1);
       @include margin-bottom(.75);
+      margin-bottom: 0.5rem;
     }
 
     &-meta {
@@ -49,13 +50,13 @@
       &-category {
         &-link {
           font-size: $typographic-small-font-size;
-          color: $color-secondary;
+          color: lighten($color-base, 50%);
           font-weight: 600;
           text-transform: uppercase;
 
           &:hover,
           &:focus {
-            color: $color-primary;
+            color: $color-red;
           }
 
         }
@@ -66,12 +67,14 @@
 
     &-readmore {
       font-size: $typographic-base-font-size;
-      color: $color-primary;
+      color: $color-red;
+      font-weight: 500;
+      display: inline-block;
 
       &:hover,
       &:focus {
-        color: $color-primary;
-        border-bottom: 1px solid $color-primary;
+        color: $color-red;
+        border-bottom: 1px solid $color-red;
       }
 
     }

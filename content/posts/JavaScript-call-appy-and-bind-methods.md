@@ -3,7 +3,7 @@ title: JavaScript call, apply and bind methods
 date: "2019-08-03T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "/posts/javascript-call-apply-and-bind-methods/"
+slug: "/javascript-call-apply-and-bind-methods/"
 category: "JavaScript"
 tags:
   - "OOP"

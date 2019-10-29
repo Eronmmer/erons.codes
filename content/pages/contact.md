@@ -1,6 +1,7 @@
 ---
 title: "Contact me"
 template: "page"
+slug: "/contact/"
 # socialImage: "/media/image-4.jpg"
 ---
 
