@@ -11,7 +11,8 @@ type Props = {
 const Copyright = ({ copyright }: Props) => (
   <div className={styles["copyright"]}>
     {/* {copyright} */}
-    Written and maintained with ❤ and ☕ by <Link to="/about">Erons</Link>
+    Written and maintained with <span style={{color: "darkRed"}}>❤</span> and ☕ by{" "}
+    <Link to="/about">Erons</Link>
   </div>
 );
 
