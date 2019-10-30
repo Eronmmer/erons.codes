@@ -4,7 +4,7 @@ module.exports = {
   url: "https://erons.codes",
   pathPrefix: "/",
   title: "Erons' Blog",
-  subtitle: "Hi, I'm Aigbiluese Eronmonsele. I build stuff that work on the web and mobile. Here, I write articles on Frontend and Backend development",
+  subtitle: "Hi, I'm Aigbiluese Eronmonsele. I build stuff that work on the web and mobile. Here, I write articles on Frontend and Backend development.",
   copyright: "",
   disqusShortname: "",
   postsPerPage: 4,
