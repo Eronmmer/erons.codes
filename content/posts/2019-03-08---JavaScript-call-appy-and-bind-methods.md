@@ -9,8 +9,8 @@ tags:
   - "OOP"
   - "JavaScript"
   - "Web Development"
-description: "In this article, I briefly discuss the bind, call and apply methods in JavaScript.
-These methods are available to every function in JavaScript and are used to control what *this* in a function points to."
+description: "In this article, I briefly discuss the call, apply and bind methods in JavaScript.
+These methods are available to every function in JavaScript and are used to control what the this keyword points to in a function."
 socialImage: "/media/42-line-bible.jpg"
 ---
 
