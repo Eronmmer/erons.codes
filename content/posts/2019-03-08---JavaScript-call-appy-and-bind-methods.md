@@ -13,7 +13,7 @@ These methods are available to every function in JavaScript and are used to cont
 socialImage: "/media/javascript-call-apply-and-bind-methods"
 ---
 
-![javascript-call-apply-and-bind-methods](/media/javascript-call-apply-and-bind-methods)
+![javascript-call-apply-and-bind-methods](/media/javascript-call-apply-and-bind-methods.jpg)
 
 In this article, I briefly discuss the `bind()`, `call()` and `apply()` methods in JavaScript.
 
