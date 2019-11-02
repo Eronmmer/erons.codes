@@ -8,13 +8,12 @@ category: "JavaScript"
 tags:
   - "OOP"
   - "JavaScript"
-  - "Web Development"
 description: "In this article, I briefly discuss the call, apply and bind methods in JavaScript.
 These methods are available to every function in JavaScript and are used to control what the this keyword points to in a function."
-socialImage: "/media/42-line-bible.jpg"
+socialImage: "/media/javascript-call-apply-and-bind-methods"
 ---
 
-<!-- ![42-line-bible.jpg](/media/42-line-bible.jpg) -->
+![javascript-call-apply-and-bind-methods](/media/javascript-call-apply-and-bind-methods)
 
 In this article, I briefly discuss the `bind()`, `call()` and `apply()` methods in JavaScript.
 

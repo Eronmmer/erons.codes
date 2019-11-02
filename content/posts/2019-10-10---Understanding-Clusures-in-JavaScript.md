@@ -8,12 +8,11 @@ category: "JavaScript"
 tags:
   - "Functional Programming"
   - "JavaScript"
-  - "Web Development"
 description: "Closures are a fundamental and powerful property that JavaScript heavily relies on and is very vital to understand. It can also be a little bit difficult to grasp its concepts especially for people new to programming. In this article, I explain with some examples and other concepts why and how closures work. "
-socialImage: "/media/gutenberg.jpg"
+socialImage: "/media/understanding-closures-in-javascript"
 ---
 
-<!-- ![42-line-bible.jpg](/media/42-line-bible.jpg) -->
+![understanding-closures-in-javascript.jpg](/media/understanding-closures-in-javascript.jpg)
 
 
 Closures are a fundamental and powerful property that JavaScript heavily relies on and is very vital to understand. It can also be a little bit difficult to grasp its concepts especially for people new to programming. In this article, I explain with some examples and other concepts why and how closures work. 
