@@ -7,7 +7,22 @@ const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
 
 const createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
+
+  // redirect from netlify default subdomain to my new domain
+  createRedirect({
+    fromPath: "https://erons.netlify.com/*",
+    toPath: "https://erons.codes/:splat",
+    isPermanent: true,
+    force: true
+  } );
+  
+  createRedirect({
+    fromPath: "https://www.erons.netlify.com/*",
+    toPath: "https://erons.codes/:splat",
+    isPermanent: true,
+    force: true
+  });
 
   // 404
   createPage({
