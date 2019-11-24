@@ -13,7 +13,7 @@ const Author = () => {
       <p className={styles["author__bio"]}>
         {/* {author.bio} */}
         Written and maintained with <span style={{color: "darkRed"}}>❤</span> and ☕ by{" "}
-        <Link to="/about">Erons</Link>
+        <a href="http://erons.me" target="_blank" rel="noopener noreferrer">Erons</a>
         <a
           className={styles["author__bio-twitter"]}
           href={getContactHref("twitter", author.contacts.twitter)}
