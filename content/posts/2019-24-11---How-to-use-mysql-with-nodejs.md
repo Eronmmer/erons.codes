@@ -10,7 +10,7 @@ tags:
   - "Node.js"
   - "Express.js"
 description: "In this article, we'll see how to quickly create, connect and use a MySQL database in a Node.js application."
-socialImage: "/media/how-to-use-mysql-with-nodejs"
+socialImage: "/media/how-to-use-mysql-with-nodejs.png"
 ---
 ![how-to-use-mysql-with-nodejs](/media/how-to-use-mysql-with-nodejs.png)
 

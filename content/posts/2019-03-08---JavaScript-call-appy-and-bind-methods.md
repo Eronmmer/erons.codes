@@ -10,7 +10,7 @@ tags:
   - "JavaScript"
 description: "In this article, I briefly discuss the call, apply and bind methods in JavaScript.
 These methods are available to every function in JavaScript and are used to control what the this keyword points to in a function."
-socialImage: "/media/javascript-call-apply-and-bind-methods"
+socialImage: "/media/javascript-call-apply-and-bind-methods.jpg"
 ---
 
 ![javascript-call-apply-and-bind-methods](/media/javascript-call-apply-and-bind-methods.jpg)
