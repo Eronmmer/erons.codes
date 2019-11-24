@@ -293,7 +293,7 @@ app.get( "/delete_employee/:id", ( req, res ) => {
 })
 ```
 
-On navigating to the `/delete_employee/3` route, we successfully delete Jin Yiang from our database. You can confirm this as well from your database manager. 
+On navigating to the `/delete_employee/3` route, we successfully delete the Employee with id 3 from our database. You can confirm this as well from your database manager. 
 
 
 ### Conclusion
