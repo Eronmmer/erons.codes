@@ -132,7 +132,7 @@ const inner = outer();
 
 function general() {
   const name = "Ehis";
-  outer();
+  inner();
 }
 
 general();
