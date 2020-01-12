@@ -10,7 +10,7 @@ tags:
   - "Node.js"
   - "JavaScript"
 description: "In this article, I'll quickly guide you on how to set up a simple Express workflow and basic things you need to know in order to get started with Express"
-socialImage: "/media/javascript-call-apply-and-bind-methods.jpg"
+socialImage: "/media/getting-started-with-express/main.png"
 ---
 
 ![Express logo](/media/getting-started-with-express/main.png)
