@@ -12,7 +12,7 @@ description: "If you've never heard of Sass before, want a quick brush up or jus
 socialImage: "/media/getting-started-with-sass.jpg"
 ---
 
-![getting-started-with-sass](/media/getting-started-with-sass.jpg)
+![Sass logo](/media/getting-started-with-sass.jpg)
 
 
 If you've never heard of Sass before, want a quick brush up or just want to get started using Sass, read on *cause* you've found the right article. In this article, we'll discuss the main features of Sass, installation guides and how to use it in your projects. 

@@ -13,7 +13,7 @@ description: "In this article, I'll quickly guide you on how to set up a simple 
 socialImage: "/media/javascript-call-apply-and-bind-methods.jpg"
 ---
 
-![understanding-closures-in-javascript](/media/getting-started-with-express/main.png)
+![Express logo](/media/getting-started-with-express/main.png)
 
 If you're a JavaScript developer, you've likely heard of or used Express before. It's a framework used for building web applications with Node.js. In this article, I'll quickly guide you on how to set up a simple Express workflow and basic things you need to know in order to get started with Express. Let the party begin. 💃
 
@@ -81,7 +81,7 @@ If you don't want to go through the stress of restarting your server whenever yo
 npm i -D nodemon
 ```
 
-In your `package.json` file, add the following to your scripts so you can use nodemon to start your app. Nodemon watches your files and im\mediately restarts your server whenever it detects any changes in your application.
+Nodemon watches your files and immediately restarts your server whenever it detects any changes in your application. In your `package.json` file, add the following to your scripts so you can use nodemon to start your app.
 
 ```json
 "dev": "nodemon index"
@@ -112,14 +112,14 @@ The application constantly listens for requests and whenever the `path` and HTTP
 ### Examples
 
 ```js
-// Simple GET method route that responds with "Welcome to our home page" whenever a GET request is made to the root route.
+// Simple GET method route.
 app.get("/", (req, res) => {
   res.send("Welcome to our home page")
 })
 ```
 
 ```js
-// Simple POST method route that responds with a success message whenever a POST request is made to the post route.
+// Simple POST method route.
 app.post("/posts", (req, res) => {
   res.send("Post successfully added")
 })
@@ -266,7 +266,7 @@ const authenticator = function(req, res, next) {
   }
 };
 
-// Private customers route can only be reached by authenticated users
+// Private customers route can only be accessed by authenticated users
 app.get("/customers", authenticator, (req, res, next) => {
    try {
       res.send("Customers route")
@@ -280,9 +280,9 @@ Whenever a user that isn't authenticated tries to access the `/customers` route,
 
 ## Template Engines
 
-Express supports a good number of Template Engines but in this article, we'll consider ejs.
+Express supports a good number of Template Engines but in this article, we'll consider EJS.
 
-To use ejs, first install it.
+To use EJS, first install it.
 
 ```bash
 npm i ejs
@@ -390,10 +390,18 @@ app.get( "/contact", ( req, res, next ) => {
 })
 ```
 
+You should see the following in your `/about` and `/contact` routes
+
+![About page](/media/getting-started-with-express/about.png)
+
+-------
+
+![Contact page](/media/getting-started-with-express/contact.png)
+
 ## Resources
 
 - To know more about Express, visit the official documentation [here](http://expressjs.com/)
-- ejs has a number of cool features. Visit the official website [here](https://ejs.co/) to know more.
+- EJS has a number of cool features. Visit the official website [here](https://ejs.co/) to know more.
 
 ## Conclusion
 

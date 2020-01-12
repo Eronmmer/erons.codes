@@ -12,7 +12,7 @@ tags:
 description: "In this article, we'll see how to quickly create, connect and use a MySQL database in a Node.js application."
 socialImage: "/media/how-to-use-mysql-with-nodejs.png"
 ---
-![how-to-use-mysql-with-nodejs](/media/how-to-use-mysql-with-nodejs.png)
+![MySQL and Node.js](/media/how-to-use-mysql-with-nodejs.png)
 
 Node.js is a pretty awesome JavaScript runtime that can be used to build robust web applications usually with NoSQL databases like MongoDB. In this article, we'll see how to quickly create, connect and use a MySQL database in a Node.js application. Let's get started. ⚡
 
