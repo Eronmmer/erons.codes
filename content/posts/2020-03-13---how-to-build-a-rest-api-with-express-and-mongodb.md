@@ -41,12 +41,13 @@ We'll be building a REST API for a simple app that basically lets users to the f
 
 That's it!
 
+If you get stuck along the way or just want to view the code for the completed app, check out the GitHub repository I created for this article here https://github.com/eronmmer/simple-express-api
+
 ## Prerequisites
 
 - Basic understanding of Node.js
 - Node.js installed
-- MongoDB installed(having MongoDB Compass in addition would be a plus but not required)
-- Postman(or any other tool you can use to test your endpoints)
+- MongoDB installed
 
 If you don't have MongoDB installed, you could create a cluster on MongoDB Atlas and follow the instructions in the documentation on how to connect it to your application.
 
