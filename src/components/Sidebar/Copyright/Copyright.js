@@ -12,7 +12,7 @@ const Copyright = ({ copyright }: Props) => (
   <div className={styles["copyright"]}>
     {/* {copyright} */}
     Written and maintained with <span style={{color: "darkRed"}}>❤</span> and ☕ by{" "}
-    <a href="http://erons.me" target="_blank" rel="noopener noreferrer">Erons</a>
+    <a href="https://erons-portfolio.netlify.com/" target="_blank" rel="noopener noreferrer">Erons</a>
   </div>
 );
 
