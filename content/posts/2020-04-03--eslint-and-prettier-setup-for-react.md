@@ -70,7 +70,7 @@ module.exports = {
 }
 ```
 
-**How it works:** If you fail to follow any of these rules while coding, Eslint will add some yellow or red squiggles to your code, indicating that something's not right. When you save the file, Prettier does the formatting and you'll notice that those squiggles are no longer there.
+**How it works:** If you fail to follow any of these rules while coding, Eslint will add some yellow or red squiggles to your code, indicating that something's not right. You can then go ahead to fix them. When you save the file, Prettier formats your code and you'll notice that some of those squiggles are no longer there.
 
 ## Install dependencies
 
@@ -118,18 +118,18 @@ These rules will enable format-on-save option and make eslint your default forma
 
 If you can see yellow squiggles on any of the properties with a *Duplicate object key* warning, it means there's already a setting for that property. In that case, make sure the value matches the corresponding value in the json snippet above.
 
-## Lint your code 
+## Lint and format your code
 
-Your codebase is now ready for linting and formatting! While coding, if you don't follow any of the rules in your configuration files, you should see yellow or red squiggles. To format any file, just save it but if you want to format your whole codebase, add the following as a command in your package.json file.
+You can lint and format your whole codebase by running just one command. Add the following script to your `package.json` file
 
 ```json
 "scripts: {
 	....
-	"lint": "eslint --fix --ext .js,.jsx, ."
+	"lint:fix": "eslint --fix --ext .js,.jsx, ."
 }
 ```
 
-Whenever you run `npm run lint`, all files in your codebase with a `.js` or `.jsx` extension will be formatted. 
+Whenever you run `npm run lint:fix`, all the files in your codebase with `.js` or `.jsx` extensions will be linted and formatted. 
 
 [Here](https://github.com/eronmmer/react-eslint-prettier) is a link to my GitHub repo with the project already setup.
 
