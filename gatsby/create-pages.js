@@ -11,15 +11,15 @@ const createPages = async ({ graphql, actions }) => {
 
   // redirect from netlify default subdomain to my new domain
   createRedirect({
-    fromPath: "https://erons.netlify.com/*",
-    toPath: "https://erons.codes/:splat",
+    fromPath: 'https://erons.netlify.com/*',
+    toPath: 'https://erons.codes/:splat',
     isPermanent: true,
     force: true
-  } );
-  
+  });
+
   createRedirect({
-    fromPath: "https://www.erons.netlify.com/*",
-    toPath: "https://erons.codes/:splat",
+    fromPath: 'https://www.erons.netlify.com/*',
+    toPath: 'https://erons.codes/:splat',
     isPermanent: true,
     force: true
   });
