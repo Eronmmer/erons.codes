@@ -41,7 +41,7 @@ If you're just interested in the complete code for this article, you can check t
 
 ## Getting Started
 
-First, we have to bootstrap a React application and install the necessary dependencies needed to use Chakra UI. By running the following commands, you should have a React app setup with Chakra UI and it's peer dependencies installed.
+First, we have to bootstrap a React application and install the necessary dependencies needed to use Chakra UI. By running the following commands, you should have a React app setup with Chakra UI and its peer dependencies installed.
 
 ```bash
 # Bootstrap a react app
