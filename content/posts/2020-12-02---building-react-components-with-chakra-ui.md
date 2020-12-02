@@ -17,11 +17,11 @@ socialImage: "/media/building-react-components-with-chakra-ui.png"
 
 In this article, we'll learn how to create React components with Chakra UI by building a landing page for a Travel Agency.
 
-There are a number of React Component Libraries that make it easy for developers to build and style React applications in a consistent way. Some of these Libraries often come with their own design systems that usually make it difficult for developers to overwrite the default styles or even extend them. Others are either not fully accessible or have a high learning curve.
+There are a number of React Component Libraries that make it easy for developers to build and style React applications in a consistent way. Some of these libraries come with design systems that make it difficult for developers to override or extend default styles. Others are either not accessible or have a high learning curve.
 
-## Why Chakra UI
+## Why Chakra UI?
 
-Chakra UI is a component library that makes it very easy to quickly build and style simple, modular and accessible React components by making use of utility style props. These style props make it easy to override and extend component styles, reduce the need for custom stylesheets and unnecessarily complex media queries. With a fairly simple and minimal component API, developers can get started with Chakra UI very quickly.
+Chakra UI is a component library that simplifies the process of building and styling simple, modular and accessible React components through the use of utility style props. These style props make it easy to override and extend component styles, reduce the need for custom stylesheets and unnecessarily complex media queries. Developers can quickly get started with Chakra UI's minimal component API.
 
 Below is a screenshot of the header from the completed project:
 
@@ -41,7 +41,7 @@ If you're just interested in the complete code for this article, you can check t
 
 ## Getting Started
 
-First, we'd have to bootstrap a React application and install the necessary dependencies needed to use Chakra UI. By running the following commands, you should have a React app setup with Chakra UI and it's peer dependencies installed.
+First, we have to bootstrap a React application and install the necessary dependencies needed to use Chakra UI. By running the following commands, you should have a React app setup with Chakra UI and it's peer dependencies installed.
 
 ```bash
 # Bootstrap a react app
@@ -56,7 +56,7 @@ yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ```
 
 For Chakra UI to work correctly across your application, you need to setup the Provider in the root of your application. In this case, we'll do that in the `index.js` file in the `src` directory.
-We'll also create a custom theme to enable us customize some components and build a design system. Although this isn't a requirement, it's very important because with a customized theme, you can define the color pallette, fonts, breakpoints of your choice and many more.
+We'll also create a custom theme to enable us customize components and build a design system. Although optional, customized themes define numerous properties such as the color pallets, fonts and break points.
 
 In your `src` directory, create a `customTheme.js` file and add the following code:
 
@@ -98,7 +98,7 @@ const customTheme = extendTheme({
 export default customTheme;
 ```
 
-In the custom theme above, we defined our fonts, colors and font weights. We can now use these defined colors in our app like so `color="brand.yellow"`.
+In the custom theme above, we defined our fonts, colors and font weights. We can use these defined colors in our app like so `color="brand.yellow"`.
 
 Now you can add the following code to your `index.js` file
 
@@ -188,10 +188,10 @@ const Container = (props) => {
 export default Container;
 ```
 
-The container component above will be used to center content horizontally and give them some padding.
+The container component above will be used to center content horizontally and provide padding.
 
 The `Box` component from Chakra UI renders a `div` element by default.
-You should notice how the shape of the values for `px` and `maxWidth` props are different. These style the horizontal paddings and maximum width of the component respectively. Chakra UI lets you provide object or array values to add mobile-first responsiveness that use the default breakpoints defined by Chakra UI or custom breakpoints in your custom theme object.
+Notice how the shape of the values for `px` and `maxWidth` props are different? These style the horizontal paddings and maximum width of the component respectively. Chakra UI lets you provide object or array values to add mobile-first responsiveness that use the default breakpoints defined by Chakra UI or custom breakpoints in your custom theme object.
 
 To better understand how responsiveness works in Chakra UI, you have to keep in mind that the default breakpoints object looks like this:
 
