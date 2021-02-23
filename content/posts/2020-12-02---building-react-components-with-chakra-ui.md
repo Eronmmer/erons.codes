@@ -55,8 +55,8 @@ npx create-react-app chakra-app
 yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ```
 
-For Chakra UI to work correctly across your application, you need to setup the Provider in the root of your application. In this case, we'll do that in the `index.js` file in the `src` directory.
-We'll also create a custom theme to enable us customize components and build a design system. Although optional, customized themes define numerous properties such as the color pallets, fonts and break points.
+For Chakra UI to work correctly across your application, you need to set up the Provider in the root of your application. In this case, we'll do that in the `index.js` file in the `src` directory.
+We'll also create a custom theme to enable us customize components and build a design system. Although optional, customized themes define numerous properties such as color pallets, fonts, and breakpoints.
 
 In your `src` directory, create a `customTheme.js` file and add the following code:
 
@@ -98,7 +98,7 @@ const customTheme = extendTheme({
 export default customTheme;
 ```
 
-In the custom theme above, we defined our fonts, colors and font weights. We can use these defined colors in our app like so `color="brand.yellow"`.
+In the custom theme above, we defined our fonts, colors, and font weights. We can use these defined colors in our app like so `color="brand.yellow"`.
 
 Now you can add the following code to your `index.js` file
 
@@ -598,9 +598,9 @@ const Header = () => {
 export default Header;
 ```
 
-From this component, we can see how to use more style props supported by Chakra UI like `mt` for margin-top styles, `mb` for margin-bottom. The `as` prop can also be used in any component that allows you pass an a HTML tag or component to be rendered. For example, if you have a `Text` component and you need it to be rendered as a `span` instead of a `p`, you can use the `as` prop like so: `<Text as="span">a paragraph</Text>
+From this component, we can see how to use more style props supported by Chakra UI like `mt` for margin-top styles, `mb` for margin-bottom. The `as` prop can also be used in any component that allows you to pass an HTML tag or component to be rendered. For example, if you have a `Text` component and you need it to be rendered as a `span` instead of a `p`, you can use the `as` prop like so: `<Text as="span">a paragraph</Text>
 
-With the `Heading` component, we can define headlines. It renders a `h2` tag by default but you can use the `as`, `size` and other props to style it however you want.
+With the `Heading` component, we can define headlines. It renders an `h2` tag by default but you can use the `as`, `size`, and other props to style it however you want.
 
 To see our header, we need to edit our `App.js` file. Add the following code to your `App.js` file.
 
@@ -1238,7 +1238,7 @@ In this article, we've seen how to get started with Chakra UI by building a land
 
 Providing a design system that is highly customizable, Chakra UI goes a long way in making UI implementation with React a breeze. It comes with other features like utility hooks that might come in handy when building complex UIs.
 
-There are other components that were not explored in this article and how to use them. You can learn more about them in the well detailed [official documentation](https://chakra-ui.com/getting-started).
+There are other components that were not explored in this article and how to use them. You can learn more about them in the well-detailed [official documentation](https://chakra-ui.com/getting-started).
 
 You can check out the repository for this article on Github [here](https://github.com/Eronmmer/chakra-landing), you can also check out the hosted demo [here](https://chakra-landing.netlify.app/). I hope this article gets you started using Chakra UI.
 
