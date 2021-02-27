@@ -107,8 +107,9 @@ Now back to merge sort: The idea behind this algorithm is that once an element c
 Here is the code for merge sort:
 
 ```js
-const mergeSort = (arr1, arr2) => {
-	let results = [];
+const mergeSort = (arr) => {
+	const merge(arr1, arr2) => {
+		let results = [];
 	let i = 0;
 	let j = 0;
 	while (i < arr1.length && j < arr2.length) {
@@ -129,6 +130,13 @@ const mergeSort = (arr1, arr2) => {
 		j++;
 	}
 	return results;
+	}
+
+	if (arr.length <= 1) return arr;
+	let mid = Math.floor(arr.length / 2);
+	let left = mergeSort(arr.slice(0, mid));
+	let right = mergeSort(arr.slice(mid));
+	return merge(left, right);
 };
 ```
 
